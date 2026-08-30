@@ -245,3 +245,33 @@ financial information and strategic direction are
 determined by the human revival team.
 
 AI must not independently redefine the project.
+
+## Historical IP and Attribution
+
+The documented 2013 Bitcointalk story involving Charles Hoskinson and
+Sugar Bush may be discussed as historical context for SUGR.
+
+Historical references must be factual, attributed, and linked to primary
+sources where possible.
+
+The website must clearly distinguish:
+
+- the 2013 Bitcoin promotional concept
+- the creation of the SUGR Cardano token in 2024
+- the community revival beginning in 2026
+
+The website must not imply that:
+
+- SUGR existed in 2013
+- Charles Hoskinson created or endorsed the current SUGR token
+- the revival team owns Sugar Bush intellectual property
+- Kelly Foxton or any Sugar Bush rights holder endorses SUGR
+- SUGR is the official cryptocurrency of Sugar Bush
+
+Third-party names may be referenced where reasonably necessary to describe
+documented history, but third-party photographs, logos, character artwork,
+or other protected creative assets must not be used as the revived project's
+core brand unless appropriate usage rights are confirmed.
+
+The revived project's primary identity is SUGR, its Cardano history,
+community revival, transparency, and open infrastructure.

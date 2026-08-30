@@ -45,6 +45,44 @@ body{margin:0;background:var(--bg);color:var(--text);font-family: -apple-system,
 
 .status-badge{display:inline-flex;align-items:center;gap:8px;background:var(--brand);color:#fff;padding:6px 10px;border-radius:999px;font-weight:700;font-size:0.875rem;margin-left:8px}
 
+/* Story section: editorial, restrained, historical */
+.story-section{position:relative;background:var(--bg);padding:92px 16px 160px;color:var(--text);overflow-x:hidden}
+.story-inner{max-width:var(--max-width);margin:0 auto;display:grid;grid-template-columns:1fr min(320px,36%);gap:56px;align-items:start}
+.label{font-size:0.8125rem;font-weight:800;color:var(--brand-dark);letter-spacing:0.06em}
+.year-plate{position:absolute;right:6%;top:32px;font-weight:900;font-size:clamp(110px,16vw,220px);line-height:0.9;color:rgba(42,34,29,0.05);pointer-events:none;user-select:none}
+.story-title{font-size:clamp(32px,6.2vw,64px);line-height:1;margin:6px 0 18px;font-weight:900}
+.story-intro{font-weight:700;margin:0 0 20px;color:rgba(42,34,29,0.9)}
+.source-typography{margin-bottom:20px}
+.source-meta{font-size:0.75rem;color:rgba(42,34,29,0.52);font-weight:700;letter-spacing:0.08em;margin-bottom:10px}
+.source-quote{font-size:clamp(16px,3.0vw,26px);line-height:1.08;font-weight:800;margin:12px 0 22px}
+.source-link{color:var(--brand-dark);text-decoration:underline;font-weight:700}
+.story-numbers{display:flex;gap:72px;margin:28px 0 14px;align-items:baseline}
+.num-val{font-weight:900;font-size:1.6rem}
+.num-label{font-size:0.75rem;color:rgba(42,34,29,0.7);margin-top:6px}
+.distinction{margin-top:40px}
+.but{font-weight:900;font-size:1.05rem;margin-bottom:12px}
+.zeros{display:flex;flex-direction:row;gap:22px;font-weight:900;color:var(--brand-dark);margin-bottom:18px}
+.distill{font-weight:900;margin:28px 0 18px}
+.dist-support{color:rgba(42,34,29,0.9);max-width:58ch;margin-bottom:0}
+.story-right{display:flex;align-items:center;justify-content:center}
+.lost-years{display:flex;flex-direction:column;align-items:center;text-align:center;gap:28px;padding:12px}
+.ly-year{font-weight:900;font-size:3.4rem;color:rgba(42,34,29,0.95);letter-spacing:0.02em}
+.ly-line{width:1px;height:220px;background:rgba(42,34,29,0.06)}
+.ly-phrase{font-weight:700;margin-top:6px}
+.ly-gap{font-weight:900;font-size:1.25rem}
+.ly-note{margin-top:12px;color:rgba(42,34,29,0.8);font-weight:700}
+
+@media (max-width:980px){
+  .story-inner{grid-template-columns:1fr;gap:28px}
+  .year-plate{right:4%;top:6px;font-size:clamp(80px,22vw,160px)}
+  .story-right{order:3}
+  .source-typography{order:2}
+  .distinction{order:4}
+  .story-numbers{order:5}
+  .story-title{font-size:clamp(22px,6vw,36px)}
+  .ly-line{height:160px}
+}
+
 /* Responsive */
 @media (max-width:980px){
   .hero-inner{grid-template-columns:1fr;gap:20px}
