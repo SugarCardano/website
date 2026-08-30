@@ -46,7 +46,7 @@ body{margin:0;background:var(--bg);color:var(--text);font-family: -apple-system,
 .status-badge{display:inline-flex;align-items:center;gap:8px;background:var(--brand);color:#fff;padding:6px 10px;border-radius:999px;font-weight:700;font-size:0.875rem;margin-left:8px}
 
 /* Story section: editorial, restrained, historical */
-.story-section{position:relative;background:var(--bg);padding:92px 16px 160px;color:var(--text);overflow-x:hidden}
+.story-section{position:relative;background:var(--bg);padding:92px 16px 56px;color:var(--text);overflow-x:hidden}
 .story-inner{max-width:var(--max-width);margin:0 auto;display:grid;grid-template-columns:1fr min(320px,36%);gap:56px;align-items:start}
 .label{font-size:0.8125rem;font-weight:800;color:var(--brand-dark);letter-spacing:0.06em}
 .year-plate{position:absolute;right:6%;top:32px;font-weight:900;font-size:clamp(110px,16vw,220px);line-height:0.9;color:rgba(42,34,29,0.05);pointer-events:none;user-select:none}
@@ -94,4 +94,41 @@ body{margin:0;background:var(--bg);color:var(--text);font-family: -apple-system,
   .hero{padding:28px 12px}
   .hero-title{font-size:28px}
   .brand-mark{height:36px}
+}
+
+/* SUGR — 2024 on-chain identity */
+.sugr-section{background:linear-gradient(180deg, rgba(251,246,238,1) 0%, rgba(255,248,236,1) 100%);padding:28px 16px 140px;overflow-x:hidden}
+.sugr-inner{max-width:var(--max-width);margin:0 auto;display:grid;grid-template-columns:1fr 220px;gap:48px;align-items:start}
+.sugr-label{font-weight:800;color:var(--brand-dark);letter-spacing:0.08em;margin-bottom:6px}
+.sugr-title{font-size:clamp(28px,6.5vw,56px);line-height:0.95;margin:0 0 14px;font-weight:900}
+.sugr-lead{color:rgba(42,34,29,0.9);max-width:64ch;margin-bottom:22px}
+.sugr-facts{display:flex;flex-wrap:wrap;gap:22px 44px;margin-bottom:18px}
+.fact{min-width:160px}
+.fact-val{font-weight:900;font-size:1.25rem}
+.fact-label{font-size:0.75rem;color:rgba(42,34,29,0.7);margin-top:6px}
+.thin-rule{border:0;border-top:1px solid rgba(42,34,29,0.06);margin:20px 0}
+.identity{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', monospace;background:transparent;padding:10px 0}
+.policy-label,.asset-label{font-size:0.75rem;color:rgba(42,34,29,0.6);font-weight:700;margin-top:8px}
+.policy-wrap{display:flex;align-items:center;gap:10px}
+.policy-id{background:transparent;border:0;padding:8px 0;margin:6px 0;color:var(--text);overflow-wrap:anywhere;font-weight:900;font-size:1rem;line-height:1.2}
+.asset-id{background:transparent;border:0;padding:6px 0;margin:6px 0;color:rgba(42,34,29,0.6);overflow-wrap:anywhere;font-weight:500;font-size:0.875rem}
+.copy-policy{display:inline-flex;align-items:center;gap:6px;background:transparent;color:var(--brand-dark);border:1px solid rgba(217,122,36,0.18);padding:6px 10px;border-radius:6px;margin-left:6px;font-weight:700;font-size:0.8125rem;cursor:pointer}
+.verify{margin-top:10px}
+.verify .source-link{font-weight:700;color:var(--brand-dark);text-decoration:underline}
+.identity-statement{margin-top:22px}
+.identity-head{font-weight:900;font-size:1.05rem;margin-bottom:8px}
+.identity-text{color:rgba(42,34,29,0.85);max-width:64ch}
+.sugr-right{display:flex;align-items:flex-start;justify-content:center}
+.launch-date{display:flex;flex-direction:column;align-items:center;color:var(--brand-dark);font-weight:900}
+.launch-mon{font-size:0.9rem;letter-spacing:0.14em}
+.launch-day{font-size:3.6rem;line-height:0.9}
+.launch-year{font-size:1rem}
+
+@media (max-width:980px){
+  .sugr-inner{grid-template-columns:1fr;gap:22px}
+  .sugr-right{order:3}
+  .sugr-title{font-size:clamp(22px,6vw,36px)}
+  .launch-day{font-size:2.6rem}
+  .policy-wrap{flex-direction:column;align-items:flex-start;gap:8px}
+  .policy-id,.asset-id{overflow-wrap:break-word}
 }
