@@ -31,3 +31,5 @@ When proposing substantial changes:
 Do not modify the historical Git tag `legacy-v1.0.7`.
 
 Never add secrets or credentials to this repository.
+
+Before writing historical project content, also read docs/HISTORY.md.
