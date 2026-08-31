@@ -9,8 +9,8 @@ This repository contains the official SUGR community website.
 The original legacy website has been permanently archived in Git as
 `legacy-v1.0.7`.
 
-Development from 2026 onward represents a community-led revival of the
-existing project, not the creation of a new token.
+Development from August 23, 2026 onward represents a community-led
+revival of the existing project, not the creation of a new token.
 
 ## Core Identity
 
@@ -25,6 +25,12 @@ Official Policy ID:
 Canonical Asset ID:
 
 `766fce8055f39d40fcfc19721677b3deb2e7846950ae08dce757f1e753554741522042555348`
+
+Historical claims must be accurate and verifiable.
+
+Do not describe Charles Hoskinson as the creator of SUGR.
+Do not claim that a SUGR cryptocurrency existed in 2013.
+Do not claim that Sugar Bush was the first cryptocurrency meme coin.
 
 ## Revival Philosophy
 
@@ -89,7 +95,7 @@ SUGR should not depend on:
 - the legacy SiteGround hosting
 - a proprietary backend
 
-The public website should be capable of operating at minimal ongoing infrastructure cost
+The public website should be capable of operating with minimal ongoing infrastructure cost.
 
 ## Content Rules
 
@@ -137,23 +143,6 @@ Do not rebuild Sugar Factory as part of the website.
 Do not rebuild Sugar Crash as part of the website.
 
 Do not accept new staking deposits through the revival website.
-
-## Transparency
-
-Transparency should be a major part of the revived project.
-
-The website should eventually identify:
-
-- official treasury wallet
-- major treasury expenditures
-- official GitHub repositories
-- revival infrastructure
-- community channels
-- project history
-- legacy service status
-
-Treasury information must only be published after the relevant wallet
-and information have been verified by the revival team.
 
 ## Security
 
@@ -295,8 +284,7 @@ The website must clearly distinguish:
 
 - the 2013 Bitcoin promotional concept
 - the creation of the SUGR Cardano token in 2024
-- Development from August 23, 2026 onward represents a community-led
-revival of the existing project, not the creation of a new token.
+- the community-led revival beginning on August 23, 2026
 
 The website must not imply that:
 
