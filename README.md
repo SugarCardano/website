@@ -67,7 +67,7 @@ Legacy material is retained for historical reference and should not automaticall
 
 ## Treasury
 
-The SUGR community revival uses a native-script multisignature treasury.
+The SUGR community revival uses a **2-of-3 Cardano native-script multisignature treasury**.
 
 Public treasury information, verification material and transaction records will be maintained in this repository as the treasury documentation is finalized.
 
