@@ -16,20 +16,15 @@ existing project, not the creation of a new token.
 
 Token: $SUGR
 
-Blockchain: Cardano
+Blockchain: Cardano Mainnet
 
 Official Policy ID:
-766fce8055f39d40fcfc19721677b3deb2e7846950ae08dce757f1e753554741522042555348
 
-The project is inspired by Sugar Bush the Squirrel and the documented
-2013 Bitcointalk discussion in which Charles Hoskinson proposed using
-Sugar Bush to help promote Bitcoin.
+`766fce8055f39d40fcfc19721677b3deb2e7846950ae08dce757f1e7`
 
-Historical claims must be accurate and verifiable.
+Canonical Asset ID:
 
-Do not describe Charles Hoskinson as the creator of SUGR.
-Do not claim that a SUGR cryptocurrency existed in 2013.
-Do not claim that Sugar Bush was the first cryptocurrency meme coin.
+`766fce8055f39d40fcfc19721677b3deb2e7846950ae08dce757f1e753554741522042555348`
 
 ## Revival Philosophy
 
@@ -77,8 +72,9 @@ SugarCardano/website
 Production branch:
 main
 
-Development branch:
-revival-v2
+Development:
+Use feature branches or dedicated development branches as required.
+Changes should be reviewed before merging into `main`.
 
 Legacy archive:
 legacy-v1.0.7
@@ -93,8 +89,7 @@ SUGR should not depend on:
 - the legacy SiteGround hosting
 - a proprietary backend
 
-The public website should be capable of operating at approximately
-zero infrastructure cost.
+The public website should be capable of operating at minimal ongoing infrastructure cost
 
 ## Content Rules
 
@@ -130,8 +125,12 @@ Sugar Factory and Sugar Crash are legacy services.
 
 They are not dependencies of the revived SUGR website.
 
-Sugar Factory may temporarily be referenced for the purpose of allowing
-legacy users to recover/withdraw assets.
+Legacy services should not be presented as part of the current SUGR
+product offering.
+
+Where necessary, Sugar Factory may be referenced separately for legacy
+user recovery or withdrawal purposes while such functionality remains
+available.
 
 Do not rebuild Sugar Factory as part of the website.
 
@@ -162,6 +161,8 @@ Never commit:
 
 - wallet seed phrases
 - private keys
+- signing keys
+- wallet backup files
 - Discord bot tokens
 - API secrets
 - GitHub tokens
@@ -169,7 +170,12 @@ Never commit:
 - passwords
 - `.env` files containing credentials
 
-Secrets must never be placed in the public website repository.
+Public blockchain information such as verified wallet addresses,
+transaction hashes, native scripts, script hashes and public key hashes
+may be documented for transparency.
+
+Public blockchain information must not be confused with private signing
+material.
 
 ## Design Direction
 
@@ -214,27 +220,37 @@ internet meme culture to promote cryptocurrency.
 
 The revived website should prioritize:
 
-1. Story
-2. SUGR identity
-3. Revival
+1. Story and historical context
+2. SUGR identity and verification
+3. Community revival
 4. Transparency
-5. Community
-6. Gallery
-7. Verified trading information
+5. Official community resources
+6. Verified external trading and market references
 
 Buying the token should not dominate the website.
 
-## Current Development Status
+## Current Deployment Status
 
-The legacy website is operational independently at:
+The revived website is deployed through Cloudflare Pages from the
+`main` branch of:
 
-https://sugarcardano.pages.dev
+`SugarCardano/website`
 
-The production sugarcardano.io domain has not yet been migrated to the
-new Cloudflare infrastructure.
+Official website:
 
-Do not assume control of sugarcardano.io until domain control has been
-confirmed.
+https://www.sugarcardano.io/
+
+Cloudflare Pages deployment:
+
+https://sugarcardano.pages.dev/
+
+The historical legacy website is preserved through the Git tag and
+GitHub release:
+
+`legacy-v1.0.7`
+
+The Cloudflare Pages URL is infrastructure for the current website and
+must not be described as a separate legacy website.
 
 ## Development Principle
 
@@ -245,6 +261,27 @@ financial information and strategic direction are
 determined by the human revival team.
 
 AI must not independently redefine the project.
+
+## Transparency
+
+Transparency is a core principle of the revived project.
+
+Public project records should identify and maintain:
+
+- official treasury wallet
+- verified treasury control policy
+- major treasury transactions and expenditures where appropriate
+- official GitHub repositories
+- revival infrastructure
+- community channels
+- project history
+- legacy service status
+
+Treasury information may only be published after the relevant address,
+native-script policy and supporting on-chain information have been
+independently verified.
+
+Private signing material must never be published.
 
 ## Historical IP and Attribution
 
@@ -258,7 +295,8 @@ The website must clearly distinguish:
 
 - the 2013 Bitcoin promotional concept
 - the creation of the SUGR Cardano token in 2024
-- the community revival beginning in 2026
+- Development from August 23, 2026 onward represents a community-led
+revival of the existing project, not the creation of a new token.
 
 The website must not imply that:
 
