@@ -1,0 +1,18 @@
+{
+  "type": "atLeast",
+  "scripts": [
+    {
+      "type": "sig",
+      "keyHash": "a455017a5d40ab8c0b494e47bba843294317a641fd1f7b06c943702a"
+    },
+    {
+      "type": "sig",
+      "keyHash": "c6c4a15078df475ce4928f4a888c1725232b5cd69dcb21ffd7e49089"
+    },
+    {
+      "type": "sig",
+      "keyHash": "b6b058b5fa15430c1bc9f396167d6e114f72b41467b43b8994fd5e6d"
+    }
+  ],
+  "required": 2
+}
