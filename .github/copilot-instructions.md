@@ -2,7 +2,7 @@
 
 Before making changes, read:
 
-docs/REVIVAL-SPEC.md
+`docs/REVIVAL-SPEC.md`
 
 Treat that document as the authoritative project specification.
 
@@ -35,7 +35,9 @@ backups, API tokens, passwords or other credentials to this repository.
 
 Public blockchain information such as wallet addresses, transaction
 hashes, native scripts and public key hashes may be documented only
-when they have been independently verified against the canonical
-project records.
+when they have been independently verified against canonical project
+records or public on-chain sources.
 
-Before writing historical project content, also read docs/HISTORY.md.
+Before writing historical project content, also read:
+
+`docs/HISTORY.md`
